@@ -24,7 +24,7 @@ class Login extends Component {
                 password: 'admin'
             },
             incorrectCredential: 'dispNone',
-            accessToken: 'DkyWEwxc09kQnlIUXd5ZATY3QkFBU1dSY3VqVjQySDFlcTh6UGNaM2hGTXRQVDhNWHRKczZAtQ1BjaTBIaWJucGZArdS16Nkg0Y0FTelR3ZAm5yanFhU29iZA2pJNjQtX1dzRkdGcEU3LUVPalJldwZDZD'
+            accessToken: 'IGQVJXVDkyWEwxc09kQnlIUXd5ZATY3QkFBU1dSY3VqVjQySDFlcTh6UGNaM2hGTXRQVDhNWHRKczZAtQ1BjaTBIaWJucGZArdS16Nkg0Y0FTelR3ZAm5yanFhU29iZA2pJNjQtX1dzRkdGcEU3LUVPalJldwZDZD'
         };
     }
 
