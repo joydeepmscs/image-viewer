@@ -205,10 +205,10 @@ class Home extends Component {
                                     <div className="media-icon-section">
                                         {media.userLiked ?
                                             <FavoriteIcon style={{ color: red[500], fontSize: 30 }}
-                                                          onClick={() => this.favIconClickHandler(index)} />
+                                                          onClick={() => this.onFavIconClick(index)} />
                                             :
                                             <FavoriteBorderIcon style={{ fontSize: 30 }}
-                                                                onClick={() => this.favIconClickHandler(index)} />}
+                                                                onClick={() => this.onFavIconClick(index)} />}
                                         <Typography style={{ paddingLeft: 15 }}>
                                             {media.likeCount + ' ' + media.likeStr}
                                         </Typography>
@@ -227,11 +227,11 @@ class Home extends Component {
                                             <InputLabel htmlFor={'comment_' + index}>Add a comment</InputLabel>
                                             <Input id={'comment_' + index} type='input'
                                                    value={media.comment ? media.comment : ''}
-                                                   onChange={(e) => this.inputCommentChangeHandler(e, index)} />
+                                                   onChange={(e) => this.onInputCommentChange(e, index)} />
                                         </FormControl>
                                         <FormControl style={{ verticalAlign: "bottom" }}>
                                             <Button variant='contained' color='primary'
-                                                    onClick={() => this.addCommentHandler(index)}>
+                                                    onClick={() => this.onAddComment(index)}>
                                                 ADD
                                             </Button>
                                         </FormControl>
